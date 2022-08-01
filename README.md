@@ -9,6 +9,7 @@ Introductory on Unit Testing Python Functions with Pytest, Visual Studio Code, C
 5. [How to run pytest](#how-to-run-pytest)
 6. [Test-driven development](#test-driven-development)
 7. [Testing steps](#testing-steps)
+8. [Important note](#important-note)
 
 ### Overview:
 1. This repository shows an example of how to implement unit testing for total function
@@ -51,5 +52,11 @@ python3 -m pytest -v [path_to_the_test_module.py]
 4. Modify your dummy function, so that it passes the test
 5. Re-run the tests, check results. If failed go back to step 4
 
-### Reference:
-1. [typing — Support for type hints](https://docs.python.org/3/library/typing.html)
+### Important note:
+1. Testing is no substitute for critical thinking ...
+2. Passing your own tests doesn't ensure your function is correct! Your tests must cover a useful range of cases
+3. **Rule of Thumb**:
+    - Test 2+ use cases and 1+ edge cases
+    - When a function has if-else statements, try to write a test that reaches each branch
+
+### Reference:1. [typing — Support for type hints](https://docs.python.org/3/library/typing.html)
