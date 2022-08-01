@@ -31,7 +31,7 @@ For example: `test_total_empty`
 ### How to run pytest
 1. To run from any directory use:
 ```shell
-python3 -m pytest [path_to_the_test_module.py]
+python3 -m pytest -v [path_to_the_test_module.py]
 ```
 
 ### Reference:
