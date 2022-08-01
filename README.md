@@ -1,4 +1,4 @@
-# python-unit-test-into
+# python-unit-test-intro
 Introductory on Unit Testing Python Functions with Pytest, Visual Studio Code, Command-line
 
 ## Table of contents:
