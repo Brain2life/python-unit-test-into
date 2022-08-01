@@ -33,6 +33,14 @@ For example: `test_total_empty`
 ```shell
 python3 -m pytest -v [path_to_the_test_module.py]
 ```
+2. In VSCode you can use GUI version for Python unit testing. Install Python extension from Microsoft - [Python](https://marketplace.visualstudio.com/items?itemName=ms-python.python)
+
+### Test-driven development
+1. Before you implement a function, write tests
+2. Keep in this mind when writing tests:
+    - What are some *usual* arguments? (Use cases)
+    - What are some valid but *unusual* arguments (Edge cases)
+    - Given those arguments, what is your *expected* return value for each set of inputs?
 
 ### Reference:
 1. [typing — Support for type hints](https://docs.python.org/3/library/typing.html)
