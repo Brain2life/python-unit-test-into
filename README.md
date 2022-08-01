@@ -11,6 +11,10 @@ Introductory on Unit Testing Python Functions with Pytest, Visual Studio Code, C
 ### Overview:
 1. This repository shows an example of how to implement unit testing for total function
 2. Total function - sums the elements of the list and returns the float type number
+3. To install requirements use:
+```shell
+python3 -m pip install -r requirements.txt
+```
 
 ### Testing module setup
 To setup testing module in `pytest` in the same directory with your source files add the following suffix `[filename]_test.py`.  
