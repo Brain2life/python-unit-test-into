@@ -59,4 +59,6 @@ python3 -m pytest -v [path_to_the_test_module.py]
     - Test 2+ use cases and 1+ edge cases
     - When a function has if-else statements, try to write a test that reaches each branch
 
-### Reference:1. [typing — Support for type hints](https://docs.python.org/3/library/typing.html)
+### Reference:
+1. [typing — Support for type hints](https://docs.python.org/3/library/typing.html)
+2. [Python String join()](https://www.programiz.com/python-programming/methods/string/join)
